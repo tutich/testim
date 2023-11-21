@@ -1,9 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import dan from './images/image-daniel.jpg';
+import jona from './images/image-jonathan.jpg';
+import kira from './images/image-kira.jpg';
+import pat from './images/image-patrick.jpg';
+import jean from './images/image-jeanette.jpg';
+
 
 function App() {
   return (
     <div className="App">
+      <img src={dan}/>
       <h4>Daniel Clifford</h4>
       <h6>Verified Graduate</h6>
       <p>I received a job offer mid-course, and the subjects I
@@ -13,19 +20,22 @@ function App() {
       found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most 
       grueling - time of my life. Since completing the course, I’ve successfully switched careers, working 
       as a Software Engineer at a VR startup. ”</p>
-      
+
+      <img src={jona}/>
       <h4>Jonathan Walters</h4>
       <h6>Verified Graduate</h6>
       <p>The team was very supportive and kept me motivated “ I started as a 
       total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. 
       This was one of the best investments I’ve made in myself. ”</p>
-      
+
+      <img src={jean}/>
       <h4>Jeanette Harmon</h4>
       <h6>Verified Graduate</h6>
       <p>An overall wonderful and rewarding experience “ Thank you for the 
       wonderful experience! I now have a job I really enjoy, and make a good living while doing something I 
       love. ”</p>
-        
+
+        <img src={pat}/>
       <h4>Patrick Abrams</h4>
       <h6>Verified Graduate</h6>
       <p>Awesome teaching support from TAs who did the bootcamp themselves.
@@ -35,6 +45,7 @@ function App() {
       the rest. You will get the personal attention you need from an incredible community of smart and amazing 
       people. ”</p>
       
+      <img src={kira}/>
       <h4>Kira Whittle</h4>
       <h6>Verified Graduate</h6>
       <p>Such a life-changing experience. Highly recommended! “ Before joining the 
