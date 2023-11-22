@@ -44,11 +44,15 @@ function App() {
       </div>
 
       <div className="jeane">
-        <img src={jean}/>
-        <h4>Jeanette Harmon</h4>
-        <h6>Verified Graduate</h6>
-        <p className='intro'>An overall wonderful and rewarding experience</p>
-        <p> “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I
+        <div className="header">
+          <div className="imgg"><img src={jean}/></div>
+          <div className="content">
+            <h4 className='name nam'>Jeanette Harmon</h4>
+            <h6 className='status stat'>Verified Graduate</h6>
+          </div>
+        </div>
+        <p className='intro harm'>An overall wonderful and rewarding experience</p>
+        <p className='review rev'> “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I
         love. ”</p>
       </div>
 
@@ -56,8 +60,8 @@ function App() {
         <div className="header">
           <div className="imgg"><img src={pat}/></div>
           <div className="content">
-            <h4>Patrick Abrams</h4>
-            <h6>Verified Graduate</h6>
+            <h4 className='name'>Patrick Abrams</h4>
+            <h6 className='status'>Verified Graduate</h6>
           </div>
         </div>
         <p className='intro'>Awesome teaching support from TAs who did the bootcamp themselves.
@@ -69,11 +73,15 @@ function App() {
       </div>
       
       <div class="kiraa">
-        <img src={kira}/>
-        <h4>Kira Whittle</h4>
-        <h6>Verified Graduate</h6>
-        <p className='intro'>Such a life-changing experience. Highly recommended!</p>
-        <p> “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me
+        <div className="header">
+          <div className="imgg"><img src={kira}/></div>
+          <div className="content">
+            <h4 className='name nam'>Kira Whittle</h4>
+            <h6 className='status stat'>Verified Graduate</h6>
+          </div>
+        </div>
+        <p className='intro harm'>Such a life-changing experience. Highly recommended!</p>
+        <p className='review rev'> “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me
         learn programming step by step. I was encouraged to enroll by a former student of theirs who can only
         say wonderful things about the program. The entire curriculum and staff did not disappoint. They were
         very hands-on and I never had to wait long for assistance. The agile team project, in particular, was
