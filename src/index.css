@@ -28,6 +28,9 @@ body {
   background: hsl(263, 55%, 52%);
   border-radius: 8px;
   margin: 10px;
+  background-image: url('./images/bg-pattern-quotation.svg');
+  background-position: 80% 0%;
+  background-repeat: no-repeat;
   
 }
 .jon {
